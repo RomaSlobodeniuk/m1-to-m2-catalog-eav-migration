@@ -167,6 +167,12 @@
             <ignore>
                 <datatype>catalog_eav_attribute.search_weight</datatype>
             </ignore>
+            <ignore>
+                <field>catalog_eav_attribute.is_used_for_customer_segment</field>
+            </ignore>
+            <ignore>
+                <field>catalog_eav_attribute.is_used_for_target_rules</field>
+            </ignore>
         </field_rules>
     </source>
     <destination>
